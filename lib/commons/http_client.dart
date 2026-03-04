@@ -13,8 +13,8 @@ class HttpClient {
   late Dio _dio;
   init(){
     BaseOptions baseOptions = BaseOptions(
-      baseUrl: 'http://127.0.0.1:9093/api/v1/',
-      // baseUrl: 'http://jz.jiukuaitech.com/api/v1/',
+      // baseUrl: 'http://127.0.0.1:9093/api/v1/',
+      baseUrl: 'http://jz.jiukuaitech.com/api/v1/',
       contentType: 'application/json',
         // responseType: ResponseType.plain,
       connectTimeout: 30000,

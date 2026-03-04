@@ -25,7 +25,7 @@ class PageError extends StatelessWidget {
               const Text('🙈', style: TextStyle(fontSize: 42)),
               Text(
                 msg ?? '加载异常，点击屏幕重新加载。',
-                style: theme.textTheme.headline6,
+                style: theme.textTheme.headlineSmall,
               ),
             ],
           ),

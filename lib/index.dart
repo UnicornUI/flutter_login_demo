@@ -113,7 +113,7 @@ class _IndexPageState extends State<IndexPage> {
                       color: theme.primaryColor,
                       borderRadius: BorderRadius.circular(50),
                     ),
-                    child: Text('记账', style: theme.textTheme.headline6!.copyWith(color: theme.colorScheme.onPrimary)),
+                    child: Text('记账', style: theme.textTheme.headlineSmall!.copyWith(color: theme.colorScheme.onPrimary)),
                   ),
                 ),
               ),
